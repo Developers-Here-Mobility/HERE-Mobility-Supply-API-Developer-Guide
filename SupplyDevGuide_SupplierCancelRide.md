@@ -4,7 +4,9 @@
 
 Your supply-side application can call the supplier-side *CancelRide* function if the dispatcher or driver needs to cancel a booked ride for any reason. The HERE Mobility Marketplace relays the cancellation message to the client application.
 
->**Note:** Your application must also implement the [Dispatch CancelRide callback function](SupplyDevGuide_DispatchCancelRide.md), to handle a cancellation initiated by the passenger.
+>**Note:** 
+>* Your application must also implement the [Dispatch CancelRide callback function](SupplyDevGuide_DispatchCancelRide.md), to handle a cancellation initiated by the passenger.
+>* See [More Information About Ride Cancellation](https://github.com/Developers-Here-Mobility/HERE-Mobility-Demand-API-Developer-Guide/blob/master/DemandDevGuide_RideCancellationDetails.md) to learn more about cancellation reasons and cancellation info in the **Ride** object.
 
 *To cancel a booked ride:*
 
